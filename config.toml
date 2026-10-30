@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#1f77b4"
+
+[server]
+maxUploadSize = 50
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

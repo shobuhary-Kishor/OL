@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+
+# Sensitive exam data - NEVER commit candidate-level data
+Results_Register-*.xlsx
+OL_student_level.xlsx
+OL_school_summary.xlsx
+OL_subject_summary.xlsx
+OL_school_summary.md
+*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
